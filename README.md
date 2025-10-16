@@ -10,7 +10,7 @@ Este ejercicio contiene:
    * a cada campo de entrada validado, por si se produjera un error y una posterior rectificación, devolviendolo a su aspecto original
   **IMPORTANTE:** obsérvese que lo primero que se hace al manejar el evento submit, es frenar su acción asociada por defecto (preventDefault)
   y solo si se demuestra que todos los campos son correctos, se reactiva ese comportamiento por defecto, que es el envío de los datos a 12calculo-notas.php
-* un archivo 12calculo-notas.php que "descarga" los datos recibidos por la superglobal $_GET desde el formulario,
+* un archivo [12calculo-notas.php](https://github.com/pgonaug-playamar/formulario-con-validaciones/blob/main/12calculo-notas.php) que "descarga" los datos recibidos por la superglobal $_GET desde el formulario,
   habiendo pasado ya el primer filtro de validación en el lado cliente. Una vez depositados los dats en variables locales php,
   realiza el cálculo requerido (una simple media aritmética, y resta de las faltas, ponderadas a 0.25 cada una. Para editar los
   resultados, se utiliza un component Bootstrap, la progress bar, que le añade un plus visual. El color de la progress bar
