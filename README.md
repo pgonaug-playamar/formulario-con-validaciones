@@ -10,7 +10,7 @@ Este ejercicio contiene:
      y de no ser así, modificar su apariencia visual (estilo) con un resaltado en rojo y la aparición del mensaje de error oculto
    * a cada campo de entrada validado, por si se produjera un error y una posterior rectificación, devolviendolo a su aspecto original
    ![formulario con errores](https://github.com/pgonaug-playamar/formulario-con-validaciones/blob/main/screenshots/imagen-form-2.png)
-   ![formulario con rectificación de errores](https://github.com/pgonaug-playamar/formulario-con-validaciones/blob/main/screenshots/imagen-form-2.png)
+   ![formulario con rectificación de errores](https://github.com/pgonaug-playamar/formulario-con-validaciones/blob/main/screenshots/imagen-form-3.png)
   **IMPORTANTE:** obsérvese que lo primero que se hace al manejar el evento submit, es frenar su acción asociada por defecto (preventDefault)
   y solo si se demuestra que todos los campos son correctos, se reactiva ese comportamiento por defecto, que es el envío de los datos a 12calculo-notas.php
 * un archivo [12calculo-notas.php](https://github.com/pgonaug-playamar/formulario-con-validaciones/blob/main/12calculo-notas.php) que "descarga" los datos recibidos por la superglobal $_GET desde el formulario,
@@ -19,3 +19,4 @@ Este ejercicio contiene:
   resultados, se utiliza un component Bootstrap, la progress bar, que le añade un plus visual. El color de la progress bar
   dependerá de la nota: verde si es superior a 7, amarilla si es 5 o 6 y roja si es menor o igual a 4
   
+  ![cálculo de nota final](https://github.com/pgonaug-playamar/formulario-con-validaciones/blob/main/screenshots/imagen-form-4.png)
