@@ -9,6 +9,8 @@ Este ejercicio contiene:
 *  * al formulario de entrada (asociado al evento submit), para que se desencadena la comprobación de la adecuación de cada campo introducido,
      y de no ser así, modificar su apariencia visual (estilo) con un resaltado en rojo y la aparición del mensaje de error oculto
    * a cada campo de entrada validado, por si se produjera un error y una posterior rectificación, devolviendolo a su aspecto original
+   ![formulario con errores](https://github.com/pgonaug-playamar/formulario-con-validaciones/blob/main/screenshots/imagen-form-2.png)
+   ![formulario con rectificación de errores](https://github.com/pgonaug-playamar/formulario-con-validaciones/blob/main/screenshots/imagen-form-2.png)
   **IMPORTANTE:** obsérvese que lo primero que se hace al manejar el evento submit, es frenar su acción asociada por defecto (preventDefault)
   y solo si se demuestra que todos los campos son correctos, se reactiva ese comportamiento por defecto, que es el envío de los datos a 12calculo-notas.php
 * un archivo [12calculo-notas.php](https://github.com/pgonaug-playamar/formulario-con-validaciones/blob/main/12calculo-notas.php) que "descarga" los datos recibidos por la superglobal $_GET desde el formulario,
