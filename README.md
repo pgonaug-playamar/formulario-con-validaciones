@@ -4,6 +4,7 @@ Este ejercicio contiene:
 * un archivo [12formulario.php](https://github.com/pgonaug-playamar/formulario-con-validaciones/blob/main/12formulario.php): una página HTML con un formulario con estilo Bootstrap. Obsérvese que tras cada campo input,
   hay un div con un texto que inicialmente se oculta, utilizándose para ello una pequeña indicación de estilo. Ese campo se visualizará sí y solo sí
   se produce un error de validación (ver validación.js)
+  ![Formulario de entrada](https://github.com/pgonaug-playamar/formulario-con-validaciones/blob/main/screenshots/imagen-form.png)
 * [validación.js](https://github.com/pgonaug-playamar/formulario-con-validaciones/blob/main/validaciones.js) es un archivo js enlazado con el anterior, que incluye la adición de eventListeners:
 *  * al formulario de entrada (asociado al evento submit), para que se desencadena la comprobación de la adecuación de cada campo introducido,
      y de no ser así, modificar su apariencia visual (estilo) con un resaltado en rojo y la aparición del mensaje de error oculto
